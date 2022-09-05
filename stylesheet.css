@@ -6,9 +6,11 @@ img {
 input {
   border-color: #c4c4c4;
   color: #5b5b5b;
+  width: 400px;
 }
 
 button {
+  width: auto;
   color: white;
   background-color: #4285f3;
   border-color: #1a5fd0;
