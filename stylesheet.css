@@ -1,12 +1,14 @@
 img {
   width: 150px;
   padding-top: 100px;
+  display: block;
 }
 
 input {
   border-color: #c4c4c4;
   color: #5b5b5b;
   width: 400px;
+  display: block;
 }
 
 button {
