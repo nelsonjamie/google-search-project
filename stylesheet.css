@@ -1,3 +1,8 @@
+img {
+  width: 150px;
+  padding-top: 100px;
+}
+
 input {
   border-color: #c4c4c4;
   color: #5b5b5b;
@@ -5,7 +10,6 @@ input {
 
 button {
   color: white;
-	background-color: #4285f3;
-	border-color: #1a5fd0;
-	HOVER COLOR?
+  background-color: #4285f3;
+  border-color: #1a5fd0;
 }
