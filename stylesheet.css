@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: Helvetica, sans-serif;
 }
 
 input[type="search"] {
@@ -40,12 +41,13 @@ button.primary:hover {
   background-color: #5998ff;
 }
 
-forms {
+form {
 }
 
 h2 {
   margin-top: 5px;
   margin-bottom: 7px;
+  font-size: 24px;
 }
 
 nav {
@@ -61,11 +63,6 @@ section {
   width: 700px;
 }
 
-section,
-.results {
-  margin-left: 180px;
-}
-
 p {
 }
 
@@ -77,4 +74,13 @@ ul {
   width: 400px;
   margin: 100px auto;
   text-align: center;
+}
+
+p,
+span {
+  font-size: 14px;
+}
+
+a.sm {
+  font-size: 12px;
 }
