@@ -1,0 +1,43 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+input[type="search"] {
+  border-color: 1px solid #c4c4c4;
+  border-radius: 20px;
+  color: #5b5b5b;
+  width: 400px;
+  display: block;
+  margin-top: 20px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+img.logofront {
+  width: 150px;
+  margin-top: 100px;
+}
+
+button {
+  width: auto;
+  color: white;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+button.primary {
+  background-color: #4285f3;
+  border-color: #1a5fd0;
+}
+
+button.primary:hover {
+  background-color: #5998ff;
+}
+
+.wrap-sm {
+  width: 400px;
+  margin: 100px auto;
+  text-align: center;
+}
