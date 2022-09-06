@@ -48,7 +48,8 @@ header {
 }
 
 button {
-  width: auto;
+  width: 100px;
+  height: auto;
   color: white;
   border-radius: 4px;
   cursor: pointer;
