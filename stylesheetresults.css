@@ -1,0 +1,92 @@
+/*TYPOGRAPHY*/
+
+a.sm {
+  font-size: 12px;
+}
+
+h2 {
+  margin-top: 5px;
+  margin-bottom: 7px;
+  font-size: 24px;
+}
+
+p,
+span {
+  font-size: 14px;
+}
+
+/*BODY*/
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+/*HEADER*/
+
+img.logoresults {
+  width: 150px;
+}
+
+input[name="searchres2"] {
+  border: 1px solid #c4c4c4;
+  border-radius: 20px;
+  color: #5b5b5b;
+  width: 400px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 170px auto;
+  border-bottom: 1px solid lightgrey;
+  align-items: center;
+  padding-left: 10px;
+}
+
+button {
+  width: auto;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+button.primary {
+  background-color: #4285f3;
+  border-color: #1a5fd0;
+}
+
+button.primary:hover {
+  background-color: #5998ff;
+}
+
+/*MAIN SECTION*/
+
+main {
+  width: 700px;
+  margin-left: 140px;
+}
+
+span.numres {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.results {
+  margin-bottom: 40px;
+}
+
+ul {
+  padding-left: 1px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
