@@ -1,21 +1,78 @@
+body {
+  margin: 0;
+}
+
+input {
+  border-color: 1px solid #c4c4c4;
+  border-radius: 20px;
+  color: #5b5b5b;
+  width: 400px;
+  display: block;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+input[type="text"] {
+}
+
 img {
   width: 150px;
   padding-top: 100px;
   display: block;
 }
 
-input {
-  border-color: #c4c4c4;
-  color: #5b5b5b;
-  width: 400px;
-  display: block;
-}
-
 button {
   width: auto;
   color: white;
+  padding-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.primary {
   background-color: #4285f3;
   border-color: #1a5fd0;
-  padding-top: 20;
-  border-radius: 4px;
+}
+
+forms {
+}
+
+h2 {
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+
+nav {
+  border-bottom: 1px solid;
+  display: grid;
+  grid-template-columns: 150px auto;
+  align-items: center;
+  grid-column-gap: 20px;
+  padding: 10px;
+}
+
+section {
+  width: 700px;
+}
+
+section,
+.results {
+  margin-left: 180px;
+}
+
+p {
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.wrap.sm {
+  width: 400px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.wrap-sm input[type="text"] {
+  margin: 20px auto;
 }
